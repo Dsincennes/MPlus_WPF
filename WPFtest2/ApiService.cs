@@ -26,7 +26,7 @@ namespace WPFtest2
 
                 if (!response.IsSuccessStatusCode)
                 {
-                    // Handle non-success status
+                    //TODO Handle non-success status
                 }
 
                 string responseContent = await response.Content.ReadAsStringAsync();
@@ -34,7 +34,7 @@ namespace WPFtest2
             }
             catch (Exception ex)
             {
-                // Handle exceptions
+                //TODO Handle exceptions
                 throw;
             }
         }
