@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WPF_MPlus", "WPFtest2\WPF_MPlus.csproj", "{F79DA6C2-5ECC-43FF-8FC3-0A5D6CBDCFB4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Leo_Backend", "LeonardoPrac\Leo_Backend.csproj", "{F598781C-25CC-4E5D-B988-11FCF1E5950F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F79DA6C2-5ECC-43FF-8FC3-0A5D6CBDCFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F79DA6C2-5ECC-43FF-8FC3-0A5D6CBDCFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F79DA6C2-5ECC-43FF-8FC3-0A5D6CBDCFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F79DA6C2-5ECC-43FF-8FC3-0A5D6CBDCFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F598781C-25CC-4E5D-B988-11FCF1E5950F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F598781C-25CC-4E5D-B988-11FCF1E5950F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F598781C-25CC-4E5D-B988-11FCF1E5950F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F598781C-25CC-4E5D-B988-11FCF1E5950F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7D2FA9ED-7C85-4246-9DD8-A8DD7A71DEE9}
+	EndGlobalSection
+EndGlobal

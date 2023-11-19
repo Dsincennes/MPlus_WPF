@@ -1,0 +1,85 @@
+﻿<Window x:Class="WPFtest2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFtest2"
+        mc:Ignorable="d"
+        Icon=".\World of Warcraft.png"
+        Title="WoW Dragonflight M+ Rating" Height="650" Width="500"
+        Background="#CC2D2D30"
+        Opacity=".60">
+
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Top Left Column -->
+        <Border Grid.Column="0" BorderBrush="Black" BorderThickness="1" Margin="6" CornerRadius="4">
+            <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="10,10,7,0" Background="#FF2D2D30">
+                <Label Content="Enter Character name for ioScore"
+                       Margin="0,0,0,10"
+                       HorizontalAlignment="Center"
+                       Width="Auto"
+                       Foreground="White"/>
+                <TextBox x:Name="characterInput"
+                         Margin="0,0,0,10"
+                         Width="Auto"
+                         Foreground="White" Background="#FF3E3E42"/>
+                <Button x:Name="inputSubmit"
+                        Content="Submit"
+                        Background="#FF007ACC"
+                        Width="100"
+                        Foreground="White"
+                        Click="InputSubmit_Click"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Top Right Column -->
+        <Border Grid.Column="1" BorderBrush="Black" BorderThickness="1" Margin="6" CornerRadius="4">
+            <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="10,10,7,0" Background="#FF2D2D30">
+                <Label Content="Enter Character to Compare"
+                       Margin="0,0,0,10"
+                       HorizontalAlignment="Center"
+                       Width="Auto"
+                       Foreground="White"/>
+                <TextBox x:Name="compareCharacterInput"
+                         Margin="0,0,0,10"
+                         Width="Auto"
+                         Foreground="White" Background="#FF3E3E42"/>
+                <Button x:Name="compareInputSubmit"
+                        Content="Submit"
+                        Background="#FF007ACC"
+                        Width="100"
+                        Foreground="White"
+                        Click="InputSubmit_Click"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Bottom Left Panel -->
+        <Border Margin="6" Grid.Row="1" Grid.Column="0" BorderBrush="Black" BorderThickness="1" CornerRadius="4">
+            <StackPanel Grid.Row="1" Grid.Column="0" Background="#FF2D2D30">
+                <Image x:Name="characterImage" Width="100" Height="100" Margin="10"/>
+                <Label x:Name="characterName" Content="Name" Foreground="White"/>
+                <Label x:Name="characterScore" Content="ioScore" Foreground="White"/>
+                <Label x:Name="characterSpec" Content="Spec" Foreground="White"/>
+            </StackPanel>
+        </Border>
+
+        <!-- Bottom Right Panel -->
+        <Border Margin="6" Grid.Row="1" Grid.Column="1" BorderBrush="Black" BorderThickness="1" CornerRadius="4">
+            <StackPanel Grid.Row="1" Grid.Column="1" Background="#FF2D2D30">
+                <Image x:Name="compareCharacterImage" Width="100" Height="100" Margin="10"/>
+                <Label x:Name="compareCharacterName" Content="Name" Foreground="White"/>
+                <Label x:Name="compareCharacterScore" Content="ioScore" Foreground="White"/>
+                <Label x:Name="compareCharacterSpec" Content="Spec" Foreground="White"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
