@@ -41,6 +41,11 @@ This project is a .NET-based application designed to track and compare Mythic Pl
 - `MplusController`: Manages the user interface and interactions.
 - `Models`: Contains data models like `Mplus` for API response handling.
 
+### Preview
+
+![image](https://github.com/Dsincennes/MPlus_WPF/assets/77713078/a9428d5d-370a-4c33-a8ee-92bca77a8b7a)      ![image](https://github.com/Dsincennes/MPlus_WPF/assets/77713078/61dea491-adfe-46f3-877b-d8b83c7a10dc)
+
+
 ### Adding Features
 
 - The project can be extended with additional features like more detailed character profiles, broader API data integration, etc.
